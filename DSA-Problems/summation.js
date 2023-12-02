@@ -24,18 +24,3 @@ function summation(n) {
 // This is O(1) as this is executed only 1 time
 
 console.log(summation(4));
-
-
-for (i = 1; i <= n; i ++) {
-    for (j = 1; j <= i; j++) {
-        //some code
-    }
-}
-
-for (i = 1; i <= n; i ++) {
-    for (j = 1; j <= i; j++) {
-        for (k = 1; k <= j; j++) {
-            //some code
-        }
-    }
-}
